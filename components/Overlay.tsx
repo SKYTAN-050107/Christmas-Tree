@@ -35,6 +35,7 @@ const Overlay: React.FC<OverlayProps> = ({ treeState, onToggle, isTransitioning 
             transition-all duration-700 ease-out
             backdrop-blur-sm border border-[#FFD700]/30
             rounded-full overflow-hidden
+            opacity-30 hover:opacity-100 active:opacity-100
             ${isTransitioning ? 'opacity-50 cursor-not-allowed grayscale' : 'hover:border-[#FFD700] hover:bg-[#FFD700]/10'}
           `}
         >
